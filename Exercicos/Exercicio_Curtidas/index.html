@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão de Curtir Dinâmico</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2 class="title">Diga quem curtiu!</h2>
+        
+        <input type="text" id="nome-curtidor" placeholder="Digite seu nome" class="input-text">
+        
+        <button id="botao-curtir" class="button-like">
+            Curtir
+        </button>
+
+        <div id="status-message" class="status-message">
+            <!-- Mensagens de status serão exibidas aqui -->
+        </div>
+
+        <p id="lista-curtidas" class="like-list">
+            Ninguém curtiu
+        </p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
