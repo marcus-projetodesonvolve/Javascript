@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f8fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    color: #24292e;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#search-input {
+    padding: 10px;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    width: 70%;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+#search-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#search-button:hover {
+    background-color: #218838;
+}
+
+#results-container {
+    text-align: left;
+}
+
+#message {
+    color: #586069;
+    font-style: italic;
+    text-align: center;
+}
+
+#user-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.user-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #e1e4e8;
+}
+
+.user-item:last-child {
+    border-bottom: none;
+}
+
+.user-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.user-info {
+    flex-grow: 1;
+}
+
+.user-info h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #0366d6;
+}
+
+.user-info p {
+    margin: 5px 0 0;
+    color: #586069;
+}
